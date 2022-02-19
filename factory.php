@@ -1,10 +1,10 @@
 <?php
-class Auto
+class Auto //vytvářím si proměnné
 {
     private $vytvorvuz;
     private $modelvozu;
 
-    public function __construct($make, $model)
+    public function __construct($make, $model) //přiřezuju vytvorvuz k proměné make a to samé s modelem
     {
         $this->vytvorvuz = $make;
         $this->modelvozu = $model;
